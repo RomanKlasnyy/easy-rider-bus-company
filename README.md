@@ -20,5 +20,5 @@ Bus schedule mistake finder. A nice practice of working with JSON and itertools,
 
 ## Supported languages:
 - Go
-- Java
+- Java (pom.xml required)
 - Python
