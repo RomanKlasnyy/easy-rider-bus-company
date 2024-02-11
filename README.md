@@ -11,6 +11,13 @@ Bus schedule mistake finder. A nice practice of working with JSON and itertools,
 | stop_type  | Stop type                | Character | S (for starting stop) O (for stop on demand) F (for final stop)                                       |          |
 | a_time     | Arrive time              | String    | HH:MM (24 hour date format)                                                                           | Required |
 
+## Special stops
+| Stop type | Description                                          | Number |
+|-----------|------------------------------------------------------|--------|
+| Start     | The stop where the line starts                       | 2      |
+| Transfer  | A stop where the traveler can change to another line | 1      |
+| Finish    | The stop where the line ends                         |        |
+
 ## Supported languages:
 - Go
 - Java
